@@ -1,0 +1,3 @@
+<div class="blocks-group" [style.color]="getColorForStrength(strength)">
+  <div *ngFor="let key of [0, 1, 2]" class="block" [style.background-color]="blocks[key]"></div>
+</div>
