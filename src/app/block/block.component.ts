@@ -29,6 +29,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
         break;
       case 'weak':
         this.setColors('red', 'gray', 'gray');
+        this.setBodyBackgroundColor('#F5C3DE');
         break;
       case 'medium':
         this.setColors('yellow', 'yellow', 'gray');
